@@ -125,7 +125,7 @@ function GM_game(){
     plr.jumpRight();
     plr.jumpLeft();
     plr.move();
-    // plr.collide();
+    plr.collide();
   }
 
   /// SPAWN NEW OBSTACLES ///

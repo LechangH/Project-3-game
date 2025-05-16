@@ -37,7 +37,7 @@ function setupTracklst(){
     //     val2 = totalFrames%24
     //     testLst.push([val1, val2])
     // }
-    mapLinear(6, 7, 5, 62); // Intro thumps
+    mapLinear(8, 6, 14, 62); // Intro thumps
     mapLinear(9, 24, 20, 31); // Instrumentals kick in
     mapLinear(9, 35, 6, 15); //Vocals kick in
     mapLinear(9, 40, 10, 15); // Again
