@@ -40,7 +40,7 @@ function setup() {
   imgPlr4Select = loadImage("Lizard_Alien_Selection.png");
   skins.push([imgPlr4, imgPlr4Select])
   bg_song1 = loadImage("GIF.gif");
-  gifsong1 = loadImage("song1gif.gif");
+  // gifsong1 = loadImage("song1gif.gif");
   firstScreen = loadImage("First_Screen.png")
   instructScren = loadImage("instruction_Screen.png")
   winScreenLst = [loadImage("Game_Ending-03.png"), loadImage("Game_Ending-02.png"), loadImage("Game_Ending-01.png"), loadImage("Game_Ending-04.png")]
@@ -169,10 +169,10 @@ function GM_game(){
   
 
   // vidSong1.play();
-  if (!endReached){
-    image(gifsong1, 50, 200, 400*(3/4), 300*(3/4));
-    image(gifsong1, width-((400*(3/4))+50), 200, 400*(3/4), 300*(3/4));
-  }
+  // if (!endReached){
+  //   image(gifsong1, 50, 200, 400*(3/4), 300*(3/4));
+  //   image(gifsong1, width-((400*(3/4))+50), 200, 400*(3/4), 300*(3/4));
+  // }
 
   if (keyIsDown(DOWN_ARROW)){
     if (!pressed[DOWN_ARROW]){
